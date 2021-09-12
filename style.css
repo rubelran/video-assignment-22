@@ -1,0 +1,327 @@
+.logo1{
+    width: 40px;
+    margin-right: 20px;
+}
+.nav1{
+    margin-left: 186px !important;
+}
+.btn1{
+ width: 120px;   
+}
+.header-menu {
+	z-index: 50000 !important;
+}
+
+/* banner-section */
+.banner-section{
+    background-image: url(https://i.ibb.co/P9WHCtJ/mbr-10.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover 
+    ;
+    padding: 200px 0;
+}
+.ban-text1{
+    color: #fff;
+}
+.ban-text2 {
+	color: white;
+	font-weight: bold;
+	font-size: 55px;
+}
+.button1 {
+	width: 400px;
+	height: 70px;
+	display: inline-block;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.button2{
+    width: 300px;
+    height: 70px;
+    background-color: #5ba533;
+    font-weight: bold;
+}
+.button2:hover{
+	background-color: #fff;
+	color: #6278df;
+}
+
+/* score -section */
+.number{
+    font-weight: bold;
+}
+.number1{
+    font-weight: bold;
+}
+
+/* activity-section */
+
+.activity-section{
+    background-color: #f7f9ff;
+}
+.activity-text{
+    margin-top: 100px;
+}
+.activity-image{
+  
+}
+.att{
+  font-weight: bold;  
+}
+.att1 {
+	font-family: 'Work Sans',sans-serif;
+	font-size: 1.3rem;
+	line-height: 1.8;
+	letter-spacing: normal;
+}
+.ati{
+    height: 500px;
+}
+
+/* active-life -section */
+.active-life-section{
+    padding: 100px 0;
+}
+.life-image {
+	height: 262px;
+}
+.body1 {
+	width: 241px;
+}
+
+/*gallary-section  */
+
+.gallary-section{}
+.gallary-pic {
+	margin-bottom: 40px;
+	position: relative;
+}
+.gallary-pic img{
+    width: 100%;
+   
+}
+.gallary-pic:hover{
+
+}
+
+
+.gallary-pic::after{
+	content: "";
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(123, 35, 211,.5);
+	visibility: hidden;
+	opacity: 0;
+}
+.gallary-pic:hover::after{
+	width: 100%;
+	visibility: visible;
+	opacity: 1;
+}
+
+
+/* start-section */
+
+.start-section{
+    background-color: #f7f9ff;
+}
+.start-div{
+  background-color: #ffffff; 
+ 
+}
+.vv a:hover{
+	background-color: #090d1f !important;
+	transition: .6s;
+	color: #fff;
+	border-radius: 5px;
+}
+.shadow1{
+	border-radius: 5px;
+}
+
+.list{}
+.list ul {
+	list-style: none;
+}
+.list ul li{
+
+}
+.icon {
+	width: 46px;
+	color: #6278df;
+	font-size: 34px;
+    font-weight: bold;
+}
+.same{
+    font-size: 20px;
+}
+.div1 {
+	margin-left: 35px;
+	margin-bottom: 20px;
+	font-size: 53px;
+}
+.div2 {
+	margin-left: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.vv a {
+	width: 200px;
+	display: inline-block;
+	height: 50px;
+	background: #fff;
+	box-shadow: 3px 5px 18px rgba(0, 0, 0,.5);
+	text-decoration: none;
+	line-height: 49px;
+	font-weight: bold;
+}
+.start-div:hover .shadow1{
+	background-color: royalblue;
+	color: #fff;
+}
+
+
+/* quatation -section */
+
+.quatation-section{}
+.col{
+  position: relative;  
+}
+.col span{}
+.col span::after {
+	content: " \f10d";
+	position: absolute;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	font-size: 81px;
+	top: 129px;
+	left: 641px;
+	opacity: .3;
+	color: #ccc;
+}
+.lor{
+    margin-top: 81px;
+}
+.quata-img {
+	width: 80px;
+	margin-left: 121px;
+	margin-top: 25px;
+}
+.qua-text {
+	margin-top: 41px;
+}
+/* team-section */
+
+.team-section{
+	background-color: #f7f9ff;
+}
+
+.shadoww {
+	box-shadow: 3px 5px 18px rgba(128, 128, 128, 0.5);
+	width: 100px;
+	height: 41px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}
+.shadoww:hover{
+	background-color: #465052;
+	color: #fff;
+	transition: .5s;
+	border-radius: 5px;
+}
+.t-button {
+	line-height: 38px;
+}
+.t-img {
+	width: 120px;
+	margin-top: -69px;
+	margin-left: 15px;
+}
+.card-body{
+	padding-left: 43px;
+}
+.cardd{
+	margin-top: 150px;
+}
+.t-lorem {
+	font-size: 23px;
+}
+
+/* form-section */
+
+.form-section{}
+.email {
+	height: 68px;
+	/* box-shadow: 0px 0px 1px rgba(128, 128, 128, 0.2); */
+}
+.name{
+	height: 68px;
+	
+}
+.name:hover{
+	box-shadow: 3px 5px 18px rgba(0, 0, 0,.5);
+}
+.phone{
+	height: 68px;
+}
+.message {
+	height: 242px;
+}
+.btn5 {
+	width: 151px;
+	height: 56px;
+	line-height: 39px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 5px;
+}
+.btn5:hover{
+	background-color: #fff;
+	color: #6278df;
+	transition: .5s;
+}
+
+/* mobile-section */
+
+.mobile-section{
+	padding-top: 100px;
+}
+.button7 {
+	width: 212px;
+	height: 68px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+.button8{
+	width: 212px;
+	height: 68px;
+	font-weight: bold;
+}
+.button8:hover{
+	background-color: rgb(11, 11, 75);
+}
+.mob-pic {
+	margin-left: 327px;
+	margin-top: 70px;
+}
+.ban2-text2{
+	font-size: 50px;
+}
+.coll {
+	width: 781px;
+	margin-left: 266px;
+}
+
+.footer-text{
+	font-size: 20px;
+}
